@@ -4,9 +4,9 @@ public class Login2 {
     String name;
     int num;
 
-    Login2(String nam,int n){
-        name=nam;
-        num=n;
+    Login2(String name,int num){
+        this.name=name;
+        this.num=num;
     }
     void message(String name_n,int num_n){
         if(name.equals(name_n)){

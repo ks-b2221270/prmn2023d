@@ -21,6 +21,8 @@ public class Login {
                         if (number[i][1].equals(gakuseki[0][1])) {
                             System.out.println("ログイン完了");
                             System.exit(0);
+                        }else{
+                            System.out.println("不正なアクセス");
                         }
                 }
             }
